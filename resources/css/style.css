@@ -29,6 +29,8 @@ span a {
  .container {
    display: flex;
    font-family: Georgia;
+   font-size: 17px;
+   color: black;
  }
 
  .column.large {
@@ -41,8 +43,6 @@ span a {
 
  .column.small {
    width: 240px;
-   font-size: 17px;
-   color: black;
  }
 
  .mainstory {
