@@ -1,31 +1,25 @@
-.header {
+h1 {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  color: MediumAquamarine;
 }
 
-.header p {
-  color: MediumAquamarine;
-  display: flex;
+span {
+  display: inline-block;
+  justify-content: flex-end;
   align-items: center;
 }
 
-.logo {
-  display: flex;
+span a {
+  color: black;
+  justify-content: space-between;
 }
 
-.header nav li {
-  display: inline-block;
-}
-
-.header .nav {
-  display: flex;
-  justify-content: flex-end;
-}
-
- a {
-   color: black;
+ .header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
  }
