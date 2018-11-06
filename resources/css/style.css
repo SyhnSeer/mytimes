@@ -9,13 +9,11 @@ h1 {
 
 span {
   display: inline-block;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: space-between;
 }
 
 span a {
   color: black;
-  justify-content: space-between;
 }
 
  .header {
