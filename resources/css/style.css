@@ -21,3 +21,25 @@ span a {
    justify-content: space-between;
    align-items: center;
  }
+
+ div {
+   border-style: solid;
+ }
+
+ .container {
+   display: flex;
+ }
+
+
+
+ .column.large {
+   width: 630px;
+ }
+
+ .column.medium {
+   width: 300px;
+ }
+
+ .column.small {
+   width: 240px;
+ }
