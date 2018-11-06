@@ -28,6 +28,7 @@ span a {
 
  .container {
    display: flex;
+   font-family: Georgia;
  }
 
  .column.large {
@@ -40,20 +41,34 @@ span a {
 
  .column.small {
    width: 240px;
+   font-size: 17px;
+   color: black;
  }
 
  .mainstory {
    background-image: url(../images/img-story-main.png);
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
  }
 
-.story1 {
-  background-image: url(../images/img-story-1.png);
-}
+ .story1 {
+   background-image: url(../images/img-story-1.png);
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+ }
 
-.story2 {
-  background-image: url(../images/img-story-2.png);
-}
+ .story2 {
+   background-image: url(../images/img-story-2.png);
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+ }
 
-.story3 {
-  background-image: url(../images/img-story-3.png);
+ .story3 {
+   background-image: url(../images/img-story-3.png);
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
 }
