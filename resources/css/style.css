@@ -7,6 +7,11 @@ h1 {
   color: MediumAquamarine;
 }
 
+img {
+   max-height: 100%;
+   max-width: 100%;
+ }
+
 span {
   display: inline-block;
   justify-content: space-between;
@@ -35,20 +40,24 @@ span a {
 
  .column.large {
    width: 630px;
+   display: flex;
+   align-items: flex-start;
  }
 
  .column.medium {
    width: 300px;
+   display: flex;
  }
 
  .column.small {
    width: 240px;
+   display: flex;
  }
 
  .mainstory {
    background-image: url(../images/img-story-main.png);
    font-weight: bold;
-   font-size: 30px;
+   font-size: 40px;
    color: white;
  }
 
