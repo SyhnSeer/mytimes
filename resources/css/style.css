@@ -8,9 +8,8 @@ h1 {
 }
 
 img {
-   max-height: 100%;
-   max-width: 100%;
- }
+  flex-grow: 0;
+}
 
 span {
   display: inline-block;
@@ -41,17 +40,19 @@ span a {
  .column.large {
    width: 630px;
    display: flex;
-   align-items: flex-start;
+   flex-grow: 0;
  }
 
  .column.medium {
    width: 300px;
    display: flex;
+   flex-grow: 0;
  }
 
  .column.small {
    width: 240px;
    display: flex;
+   flex-grow: 0;
  }
 
  .mainstory {
