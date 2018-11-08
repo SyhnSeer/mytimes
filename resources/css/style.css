@@ -28,10 +28,6 @@ span a {
    flex-wrap: wrap;
  }
 
- div {
-   border-style: solid;
- }
-
  .container {
    display: flex;
    font-family: Georgia;
