@@ -12,6 +12,10 @@ span {
   justify-content: space-between;
 }
 
+div {
+  border: solid;
+}
+
 .derp {
   display: flex;
   flex-grow: 1;
