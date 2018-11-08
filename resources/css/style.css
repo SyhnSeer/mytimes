@@ -14,18 +14,21 @@ span {
 
 .derp {
   display: flex;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 span a {
   color: black;
 }
 
- .header {
+ header {
    display: flex;
    justify-content: space-between;
    align-items: center;
    flex-wrap: wrap;
+   position: fixed;
+   background-color: white;
+   border: solid;
  }
 
  .container {
