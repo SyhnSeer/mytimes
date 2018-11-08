@@ -7,13 +7,14 @@ h1 {
   color: MediumAquamarine;
 }
 
-img {
-  flex-grow: 0;
-}
-
 span {
   display: inline-block;
   justify-content: space-between;
+}
+
+.derp {
+  display: flex;
+  flex-grow: 1
 }
 
 span a {
@@ -24,6 +25,7 @@ span a {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   flex-wrap: wrap;
  }
 
  div {
@@ -40,19 +42,16 @@ span a {
  .column.large {
    width: 630px;
    display: flex;
-   flex-grow: 0;
  }
 
  .column.medium {
    width: 300px;
    display: flex;
-   flex-grow: 0;
  }
 
  .column.small {
    width: 240px;
    display: flex;
-   flex-grow: 0;
  }
 
  .mainstory {
