@@ -20,6 +20,10 @@ div {
   display: flex;
   flex-grow: 1;
 }
+.derp2 {
+  display: flex;
+  flex-grow: 1;
+}
 
 span a {
   color: black;
@@ -34,6 +38,7 @@ span a {
    background-color: white;
    border: solid;
    z-index: 1;
+   margin-top: 0;
  }
 
  .container {
@@ -41,11 +46,13 @@ span a {
    font-family: Georgia;
    font-size: 17px;
    color: black;
+   margin-top: 0;
  }
 
  .column.large {
    width: 630px;
    display: flex;
+   margin: 2;
  }
 
  .column.medium {
