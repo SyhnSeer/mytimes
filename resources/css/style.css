@@ -46,6 +46,17 @@ nav {
   display: flex;
 }
 
+.large {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.large2 {
+  display: flex;
+  flex-direction: row;
+}
+
 .column.medium {
   width: 300px;
   display: flex;
