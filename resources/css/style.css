@@ -39,20 +39,21 @@ nav {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  flex-direction: row;
 }
 
 .column.large {
   width: 630px;
   display: flex;
-}
-
-.large {
-  display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
-.large2 {
+.large2.large {
+  display: flex;
+  flex-direction: row;
+}
+
+.large2.large {
   display: flex;
   flex-direction: row;
 }
@@ -60,6 +61,7 @@ nav {
 .column.medium {
   width: 300px;
   display: flex;
+  flex-direction: column;
 }
 
 .column.small {
