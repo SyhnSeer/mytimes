@@ -103,10 +103,6 @@ nav {
   display: flex;
   height: 270px;
   justify-content: center;
-}
-
-.mainstory {
-  display: flex;
   padding-left: 10px;
 }
 
