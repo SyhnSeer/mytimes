@@ -103,7 +103,11 @@ nav {
   display: flex;
   height: 270px;
   justify-content: center;
-  align-items: center;
+}
+
+.mainstory {
+  display: flex;
+  padding-left: 10px;
 }
 
 .story1 {
@@ -116,6 +120,7 @@ nav {
   height: 299px;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .story2 {
@@ -128,6 +133,7 @@ nav {
   height: 260px;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .story3 {
@@ -139,6 +145,7 @@ nav {
   height: 299px;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 footer {
