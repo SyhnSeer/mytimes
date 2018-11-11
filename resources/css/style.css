@@ -127,6 +127,7 @@ footer {
   display: flex;
   align-items: center;
   background-color: MediumAquamarine;
+  height: 300px;
   font-family: Verdana;
   font-size: 12px;
   margin: auto;
