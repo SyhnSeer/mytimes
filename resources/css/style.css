@@ -7,9 +7,11 @@ header {
   font-weight: bold;
   color: MediumAquamarine;
   border-bottom: solid black thin;
-  position: sicky;
+  position: fixed;
   z-index: 1;
   top: 0;
+  left: 0;
+  right: 0;
   background-color: white;
 }
 
