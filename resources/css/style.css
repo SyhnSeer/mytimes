@@ -7,10 +7,15 @@ header {
   font-weight: bold;
   color: MediumAquamarine;
   border-bottom: solid black thin;
+  position: sicky;
+  z-index: 1;
+  top: 0;
+  background-color: white;
 }
 
 span {
   display: inline-block;
+  padding: 10px;
 }
 
 span a {
@@ -167,4 +172,5 @@ footer h2 {
   font-weight: bold;
   color: white;
   border-right: solid white thin;
+  padding: 10px;
 }
