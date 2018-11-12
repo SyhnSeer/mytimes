@@ -45,8 +45,8 @@ nav {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-  justify-content: center;
   padding-top: 150px;
+  width: 1200px;
 }
 .column {
   margin: 12px 24px;
